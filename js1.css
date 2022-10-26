@@ -145,21 +145,26 @@ body {
   float: left;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
+    .details {
+
+        padding: 240px 0 0 250px;
+    }
     .column2{
+        display: flex;
         padding-left: 41px;
         padding-top: 30px;
-        margin-left: 20px;
-        width: 480px;
+        margin-left: -4vw;
+        width: 350px;
         float: left;
     }
     .container {
         margin: 0 auto;
         width: 780px;
-        height: 640px;
+        height: 940px;
         background: #F0F0ED;
         border-radius: 5px;
-        position: relative;
+        
       }
       .description {
   
@@ -385,6 +390,7 @@ input {
     border-radius: 15px 0px 0px 15px;
     width: 50vw;
     height: 550px;
+    border-radius: 5px;
 }
 
 
@@ -554,7 +560,7 @@ color: white;
     }
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 768px) {
     .screen-body {
         padding: 40px;
     }
@@ -564,7 +570,7 @@ color: white;
     }
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 768px) {
     .nav-barre {
         width: 100%;
         flex-direction: row;
@@ -609,6 +615,12 @@ color: white;
     .third-page{
         width: 100%;
 
+    }
+    .screen-body{
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     .page-container {
         width: 19%;
