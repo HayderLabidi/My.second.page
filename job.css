@@ -342,7 +342,7 @@ p.star {
   margin-top: 15px;
 }
 .grid-item img {
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   width: 20vw;
   height: 25vw;
 }
@@ -429,7 +429,7 @@ p.star {
     padding: 5px;
   }
   .grid-item img {
-    width: 50vw;
+    width: 70vw;
     height: 80vw;
   }
   header {

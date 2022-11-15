@@ -1,9 +1,9 @@
-let span = document.getElementsByTagName('span');
+let span = document.getElementsByClassName('flesh');
 	let product = document.getElementsByClassName('product')
 	let product_page = Math.ceil(product.length/4);
 	let l = 0;
 	let movePer = 25.34;
-	let maxMove = 203;
+	let maxMove = 131;
 	// mobile_view	
 	let mob_view = window.matchMedia("(max-width: 768px)");
 	if (mob_view.matches)
