@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin: 0;
   color-scheme: dark light;
   overflow-x: hidden;
@@ -187,6 +187,9 @@ body {
 .search {
   display: flex;
   align-items: center;
+}
+.plus{
+  display: none;
 }
 .pages section header{
   width: 98%;
@@ -386,17 +389,26 @@ p.star {
     margin-left: 2vw;
   }
   .nav2{
-    display: flex;
-    flex-wrap: wrap;
     height: 23vw;
-    margin-left: -3vw;
+    margin-left: 2vw;
+    font-size: 4.5vw;
   }
   .nav2 img{
     display: none;
   }
   .nav2 button{
-    width: 20vw;
-    height: 10vw;
+    width: 26vw;
+    height: 12.5vw;
+  }
+  .nav2 .bt2{
+    display: none;
+  }
+  .nav2 .bt1{
+    background: none;
+    border: #111 1px solid;
+    border-radius: 5px;
+    padding: 2vw 4vw;
+    background: red;
   }
   .nav1 img {
     width: 25vw;
@@ -406,9 +418,8 @@ p.star {
     width: 18vw;
     height: 20vw;
   }
-  .search-barre {
-    margin-left: 0px;
-    width: 25vw;
+  .search{
+    display: none;
   }
   .products {
     display: block;
@@ -472,4 +483,29 @@ p.star {
   .contact {
     margin-left: 20vw;
   }
+  label{
+    display: flex;
+    align-items: center;
+  }
+  .plus{
+    display: flex;
+    height: 12.5vw;
+    width: 29vw;
+    padding: 2vw 3vw;
+    font-size: 4.5vw;
+    color: black;
+    border: 1px black solid;
+    align-items: center;
+    background: none;
+    border-radius: 5px;
+    margin-left: 1vw;
+  }
+  .input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
 }
