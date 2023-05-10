@@ -9,7 +9,7 @@
 
 - 📄 Know about my experiences [I am a full-stack developer from Tunisia . My interests range from back-side, front-end, system management to mobile and web applications. As you can see, I am interested in all parts of application development.](I am a full-stack developer from Tunisia . My interests range from back-side, front-end, system management to mobile and web applications. As you can see, I am interested in all parts of application development.)
 
-- ⚡ Fun fact **One piece will be the king of Pirates haha**
+- ⚡ Fun fact **Luffy will be the king of Pirates haha**
 
 <h3 align="left">Connect with me: Hayderlabidi2001@gmail.com</h3>
 <p align="left">
